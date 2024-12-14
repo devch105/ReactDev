@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+AU+TAS+Guides&family=Spicy+Rice&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #1a1a2e; /* Same as the particle background for a seamless look */
+  color: #ffffff; /* Light text for dark mode */
+  line-height: 1.6;
+}
+:root {
+  font-family: "ubuntu", sans-serif;
+}
+
+.Experiencecard {
+  transition: transform 0.8s;
+}
+.card {
+  transition: transform 0.8s;
+}
+.card:hover {
+  transform: scale(1.2); /* Scale up to 120% on hover */
+}
+
+.Experiencecard:hover {
+  transform: scale(1.2); /* Scale up to 120% on hover */
+}
+html {
+  scroll-behavior: smooth;
+}
+.name {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
