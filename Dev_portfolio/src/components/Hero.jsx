@@ -37,7 +37,8 @@ function Hero() {
           <div className="place-items-center mt-4">
             <img
               src={profile}
-              className="w-[400px] h-[400px] rounded-full border-4 border-solid border-x-red-300 border-y-yellow-200 hover:scale-110 transition-all ease-in-out duration-300"
+              className=" pic lg rounded-full border-4 border-solid border-x-red-300 border-y-yellow-200 hover:scale-110 transition-all ease-in-out duration-300
+               sm:w-[200px] h-[300px]  "
             />
           </div>
         </div>
