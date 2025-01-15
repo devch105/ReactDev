@@ -27,9 +27,6 @@ function Hero() {
                     Resume
                   </a>
                 </button>
-                <button className="border-2 border-solid border-blue-600 text-blue-500 px-3 pb-2 py-1 rounded-full ml-3">
-                  Read More
-                </button>
               </div>
             </div>
           </div>
