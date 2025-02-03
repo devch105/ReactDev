@@ -10,20 +10,22 @@ const Card = () => {
     <div className="grid ">
       <div className="flex  flex-cols-3 gap-10 justify-center w-full">
         <a href="https://github.com/devch105">
-          <FaGithub className=" text-yellow-200 text-3xl hover:text-blue-400" />
+          <FaGithub className=" text-yellow-200 text-4xl hover:text-white" />
         </a>
         <a href="https://www.linkedin.com/in/dev-dhama-nh3105/">
-          <BsLinkedin className=" text-yellow-200 text-3xl hover:text-blue-400" />
+          <BsLinkedin className=" text-yellow-200 text-4xl hover:text-blue-400" />
         </a>
         <a href="https://x.com/DevDhama501">
-          <FaSquareXTwitter className=" text-yellow-200 text-3xl hover:text-blue-400" />
+          <FaSquareXTwitter className=" text-yellow-200 text-4xl hover:text-black" />
         </a>
       </div>
       <div className="flex pt-2 flex-cols-2 gap-2 justify-center w-full  text-yellow-200 ">
-        <CiMail className="text-2xl " />
-        <h1 className="text-1xl">devdhama23@gmail.com</h1>
+        <CiMail className="text-3xl " />
+        <h1 className="text-1xl">
+          <a href="mailto:devdhama23@gmail.com">devdhama23@gmail.com</a>
+          <br /> Made by : Dev Dhama
+        </h1>
       </div>
-      <h1 className="text-1xl pl-5">Made by : Dev Dhama</h1>
     </div>
   );
 };

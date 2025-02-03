@@ -46,3 +46,6 @@ html {
     height: 300px;
   }
 }
+.classcomponent{
+  width: clamp(310px, 50vw, 420px);
+}

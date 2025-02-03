@@ -3,7 +3,7 @@ import { FaJava } from "react-icons/fa";
 
 function Exp2() {
   return (
-    <div className="Experiencecard text-yellow-200 text-[15px] bg-[#1B1B1A]  drop-shadow-xl border-[1px] border-[#6e6e6d] rounded-md w-3/5">
+    <div className="Experiencecard text-yellow-200 text-[15px] bg-[#1B1B1A]  drop-shadow-xl border-[1px] border-[#6e6e6d] rounded-md w-4/5 lg:w-3/5">
       <div className="pt-8 px-2 py-2 pb-2">
         <div className="flex justify-between ">
           <h1 className="text-[22px] font-semibold hover:text-blue-400">
