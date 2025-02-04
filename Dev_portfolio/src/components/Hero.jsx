@@ -23,7 +23,7 @@ function Hero() {
               </h1>
               <div>
                 <button className="text-white mt-4 text-[18px] bg-gradient-to-r from-blue-500 to-red-600 px-3 pb-2 py-1 rounded-full hover:scale-110 transition-all ease-in-out duration-300 mr-3">
-                  <a href="https://drive.google.com/file/d/1r1ppwBt5k8HKTMh4TWPuxfLetfDrNxwL/view?usp=drivesdk">
+                  <a href="https://drive.google.com/file/d/1qeqMcJyNaumJeEZfu7b-WWwntS56EWfK/view?usp=drive_link">
                     Resume
                   </a>
                 </button>
