@@ -9,7 +9,7 @@ function MyExperience() {
         {" "}
         My Experience
       </h2>
-      <div className="flex flex-col-2 flex-wrap gap-8 place-content-center sm:min-w-2">
+      <div className="flex flex-col-2  flex-wrap gap-16 place-content-center sm:min-w-2">
         <Exp1 />
         <Exp2 />
       </div>

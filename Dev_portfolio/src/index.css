@@ -49,3 +49,6 @@ html {
 .classcomponent{
   width: clamp(310px, 50vw, 420px);
 }
+.aboutdiv{
+  width: clamp(388px,30vw,800px);
+}
